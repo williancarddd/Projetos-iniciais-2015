@@ -1,0 +1,3 @@
+- Nesse repositório estão alguns programas criados em python, com interface gráfica.
+- Todos esses projetos foram desenvolvidos com o objetivo de aprender a programação em python.
+- Esses projetos são do inicio do meu estudo em python e não estão sendo mais utilizados.

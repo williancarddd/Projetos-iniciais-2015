@@ -1,0 +1,31 @@
+-----------PROJETO-------- CPU PYTHON
+-----Arquivos
+------Modules - Tela Principal - Logica Programa
+------Constants
+------image
+------drop archive
+------Guia
+----------Objetivo do projeto?
+------------O projeto tem o objetivo de facilitar o usuario ver informa��es do sistema
+------------com uma tela inicial com menu de configura��es:op��es(temas,salvar arquivo com os detalhes, sair)
+------------salvar arquivos na area de trabalho, mostrar analise de dados de consumos etc..
+BIBLIOTECAS:
+-TKINTER
+---------PSUTILS
+------------ psutil.cpu_percent()                               - porcentagem da cpu
+------------ psutil.cpu_count()                                 - numero de nucleos
+------------ len(psutil.Process().cpu_affinity())               - numero de cpus utilizaveis
+------------ psutil.cpu_freq()                                  - frequencia da cpu
+------------ (psutil.cpu_freq() / 100) * psutil.cpu_percent()   - uso da cpu em tempo real em MhZ
+------------ datetime.datetime.fromtimestamp(psutil.boot_time())- inicio de uso do pc
+------------ psutil.disk_partitions()                           - todas partiçao de memoria do pc
+------------ psutil.virtual_memory()                            - memoria ram(converter em mb)
+
+---------platform
+----------- platform.architecture()                             - Arquitetura do pc
+----------- platform.machine()                                  - Tipo da maquina
+----------- platform.platform()                                 - Sistema operacional
+----------- platform.processor()                                - Marca do processador e modelo
+----------- platform.node()                                     - Nome do Usuario
+
+-TRHEAD
